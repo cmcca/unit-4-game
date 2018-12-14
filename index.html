@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Crystal Collector</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
+
+</head>
+<body>
+	
+	<div class="header">
+		<h1>Crystal Collector</h1>
+	</div>
+	<div class="instructions">
+		<h2>Game Time</h2>
+		
+			<h2>Hit <span id= "randomNumber">"Number To Get"</span></h2>
+			<p>Pick a crystal, any crystal!</p>
+			<p>Hit the magic number, win the Game!</p>
+	</div>
+	
+	<div class="gems">
+		<img src="assets/images/blue.png" class=gemImage id="gemOne" alt="Blue Gem">
+		<img src="assets/images/green.png" class=gemImage id="gemTwo" alt="Green Gem">
+		<img src="assets/images/red.png" class=gemImage id= "gemThree" alt="Red Gem">
+		<img src="assets/images/yellow.png" class=gemImage id= "gemFour" alt="Yellow Gem">
+	</div>
+	<div class="winsAndLosses">
+		<h2>Wins:
+			<span id= "numberWins"></span>
+			</br>
+			Losses: 
+			<span id= "numberLosses"></span>
+		</h2>
+	</div>
+	<div class="userTotal">
+		<h2>Your total score is:
+			<span id="finalTotal"></span>
+		</h2>
+	
+	</div>
+
+	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript" src="assets/javascript/game.js"></script>
+
+</body>
+</html>
